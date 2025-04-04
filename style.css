@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+text-align: center;
+background-color: #3F7084;
+color: black;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.conainer{
+    /* width: 350px; */
+    /* border: 2px solid red; */
+    /* background-color: #e0e5e0; */
+    background-image: url(https://pics.craiyon.com/2023-11-16/wHGM0abcSOWVL1p6KEsCZw.webp);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:inset 8px 8px 15px rgba(163, 177, 198, 0.6),inset -8px -8px 15px rgba(255,255,255,0.8);
+}
+
+h1{
+
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+
+}
+
+input{
+    width: 85%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+    text-align: center;
+    background-color: #e0e5e0;
+    box-shadow: 4px 4px 8px rgba(163,177, 198, 0.6), -4px -4px 8px rgba(255, 255, 255, 0.8);
+}
+
+#btn{
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #0072ff;
+    color: white;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+#btn:active{
+    background-color: blueviolet;
+}
+
+.weather-info{
+    /* border: 2px solid red; */
+    margin: 20px;
+    padding: 15PX;
+    border-radius: 15px;
+    background-color: #e0e5e0;
+    box-shadow: 6px 6px 12px rgba(163, 177, 198, 0.6),inset -6px -6px 12px rgba(255, 255, 255, 0.8);
+}
+
+.weather-info h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+.weather-icon{
+    width: 100px;
+    margin-top: 10px;
+    
+}
